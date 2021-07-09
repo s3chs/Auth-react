@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import "./AuthForm.css";
 import { useSelector, useDispatch } from "react-redux";
+import { AuthContext } from "../../context/AuthContext";
+import { useHistory } from "react-router-dom";
 
 export default function SignIn() {
   const showModal = useSelector((state) => state);

@@ -1,4 +1,4 @@
-import { auth } from "google-auth-library";
+import { auth } from "../firebase";
 import React, { useState, useEffect, useContext, createContext } from "react";
 
 export const AuthContext = createContext();
